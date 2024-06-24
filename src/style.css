@@ -1,0 +1,129 @@
+/* General page styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Navigation bar styling */
+  nav {
+    background-color: #0c151e;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    background-color: #060708;
+  }
+  
+  nav ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  /* Container for the About section */
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  /* Image container styling */
+  .image {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .image img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #afc8e4;
+  }
+  
+  /* Paragraph styling */
+  p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    text-align: justify;
+    margin: 0;
+    padding: 0 20px;
+  }
+  
+  /* Profile card styling */
+  .profile-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 220px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    border: 1px solid #201c1c;
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  /* Link styling */
+  a {
+    color: #040506;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .heading {
+    text-align: center;
+    color: #333;
+  }
+  
+  .skill-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 300px;
+    padding: 25px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
